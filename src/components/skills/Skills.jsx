@@ -7,7 +7,7 @@ import { Experience } from '../../data';
 
 const Skills = () => {
   return (
-    <section className=' w-full flex justify-center items-center'>
+    <section className=' w-full flex justify-center items-center' id='skills'>
       <VerticalTimeline>
       {Experience && Experience.map(item => (
           <VerticalTimelineElement

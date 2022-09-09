@@ -9,7 +9,7 @@ import Skills from './components/skills/Skills.jsx';
 function App() {
   return (
     <div className="flex w-screen  min-h-screen flex-col justify-center items-center relative bg-0B0F15  " id='home'>
-      {/* <Navbar /> */}
+      <Navbar />
       <Spline3D />
       <About />
       <Skills />

@@ -6,9 +6,12 @@ const Navbar = () => {
     const [show, setShow] = useState(false);
     const [showCode, setShowCode] = useState(false)
     const [inputValue, setInputValue] = useState('')
+    const [navbar, setNavber] = useState(false)
     // const [sections, setSections] = useState(['Home()','About()'])
 
 
+    window.addEventListener("scroll", () => window.scrollY >= 500 ? setNavber(true) : setNavber(false))
+    
     const handleChange = (e) => {
         setInputValue(e.target.value)
     }
@@ -23,9 +26,11 @@ const Navbar = () => {
         }
         setShowCode(false)
     }
+
+
   return (
-    <nav className=' w-full px-6 z-50 fixed inset-x-0 top-2 flex justify-center items-center '>
-        <div className=' w-full md:w-880  p-4 rounded-2xl flex justify-between items-center '>
+    <nav className='w-full px-6 z-50 fixed inset-x-0 top-1 flex justify-center items-center '>
+        <div className={navbar ?  " transition-all bg-171D2A w-full md:w-880  p-4 rounded-2xl flex justify-between items-center" : " transition-all w-full md:w-880  p-4 rounded-2xl flex justify-between items-center"} >
             <p className=' text-lg font-bold text-682AE9'>. ahmedFareeq( )</p>
 
             <div className=' hidden md:flex gap-6 ml-6 '>

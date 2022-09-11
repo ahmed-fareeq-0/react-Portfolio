@@ -4,6 +4,7 @@ import Spline3D from './components/spline/Spline3D.jsx'
 import About from './components/about/About.jsx'
 import Skills from './components/skills/Skills.jsx';
 import Projects from './components/porjects/Projects.jsx';
+import Contact from './components/contact/Contact.jsx';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }

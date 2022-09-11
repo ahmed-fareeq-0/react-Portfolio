@@ -38,6 +38,9 @@ module.exports = {
         "808080": '#808080',
         "98C379": '#FF7eD8'
       },
+      screens:{
+        smm: '320px'
+      }
     },
   },
   plugins: [],

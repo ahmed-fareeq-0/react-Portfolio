@@ -5,7 +5,7 @@ import { IoLogoGithub } from 'react-icons/io5';
 
 const Projects = () => {
   return (
-    <div className=' flex flex-wrap items-center justify-evenly my-24 gap-4' id='projects'>
+    <div className=' p-4 flex flex-wrap items-center justify-evenly my-24 gap-4' id='projects'>
       {ProjectsData && ProjectsData.map(item => (
         <div className=' border border-zinc-800 p-2 rounded-md min-w-[276px] md:max-w-[275px] hover:border-purple-600 duration-100 ease-in-out'>
           <p className=' text-lg text-textBase font-medium uppercase'>{item.nameProject}</p>

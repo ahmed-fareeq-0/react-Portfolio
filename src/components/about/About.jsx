@@ -5,7 +5,7 @@ import Portrait from './20220908_051312.jpg';
 const About = () => {
 
   return (
-      <div className=' w-[90%] h-full' id='about'>
+      <div className=' w-[90%] h-full p-4' id='about'>
         <section className=' w-full grid grid-cols-1 md:grid-cols-2 gap-2 my-36'>
           <div className=' w-full h-320 flex items-center'>
             <div className=' relative w-275 h-340 bg-gray-100 rounded-md'>

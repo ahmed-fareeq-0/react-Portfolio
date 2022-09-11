@@ -75,3 +75,27 @@ export const Experience = [
 
     },
 ]
+
+export const ProjectsData = [
+    {
+        id:1,
+        nameProject: 'ASIA-MERN-STACK',
+        image: '/image/Screenshot 2022-09-11 131945.png',
+        Technologies: 'react.js sass',
+        githubSrc: 'https://github.com/ahmed-fareeq-0/ASIA-MERN-STACK'
+    },
+    {
+        id:2,
+        nameProject: 'portfolio',
+        image: '/image/Screenshot 2022-09-11 132049.png',
+        Technologies: 'react.js sass',
+        githubSrc: 'https://github.com/ahmed-fareeq-0/portfolio'
+    },
+    {
+        id:3,
+        nameProject: 'portfolio',
+        image: '/image/Screenshot 2022-09-11 141104.png',
+        Technologies: 'react.js tailwind.css',
+        githubSrc: 'https://github.com/ahmed-fareeq-0/react-Portfolio'
+    }
+]

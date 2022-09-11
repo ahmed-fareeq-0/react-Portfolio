@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar.jsx';
 import Spline3D from './components/spline/Spline3D.jsx'
 import About from './components/about/About.jsx'
 import Skills from './components/skills/Skills.jsx';
+import Projects from './components/porjects/Projects.jsx';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Spline3D />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }

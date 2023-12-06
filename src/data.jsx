@@ -1,98 +1,86 @@
-import {FaReact} from 'react-icons/fa'
-import {ImHtmlFive2, ImCss3} from 'react-icons/im'
-import {DiSass, DiJavascript1} from 'react-icons/di'
-import {SiTailwindcss} from 'react-icons/si'
-import {BsBootstrap} from 'react-icons/bs'
+import { FaReact, FaNodeJs } from 'react-icons/fa'
+import { GrMysql } from "react-icons/gr";
+import { DiJavascript1, DiMongodb } from 'react-icons/di'
 
 export const Experience = [
     {
-        id: 1,
-        title: 'HTML5',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, sit assumenda quidem repellendus dolorum!',
-        date: '2019',
-        location : 'location',
-        icon: <ImHtmlFive2 />,
-        bg: '#E65100'
 
-    },
-    {
         id: 2,
-        title: 'CSS3',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, sit assumenda quidem repellendus dolorum!',
-        date: '2019',
-        location : 'location',
-        icon: <ImCss3 />,
-        bg: '#0277BD'
-    },
-    {
-        id: 3,
-        title: 'JAVASCRIPT',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, sit assumenda quidem repellendus dolorum!',
-        date: '2019',
-        location : 'location',
-        icon: <DiJavascript1 />,
-        bg: '#FFD600'
-
-    },
-    {
-        id: 4,
-        title: 'SASS',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, sit assumenda quidem repellendus dolorum!',
-        date: '2019',
-        location : 'location',
-        icon: <DiSass />,
-        bg: '#F06292'
-
-    },
-    {
-        id: 5,
-        title: 'TAILWIND',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, sit assumenda quidem repellendus dolorum!',
-        date: '2019',
-        location : 'location',
-        icon: <SiTailwindcss />,
-        bg: '#00ACC1'
-
-    },
-    {
-        id: 6,
-        title: 'BOOTSTRAP5',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, sit assumenda quidem repellendus dolorum!',
-        date: '2019',
-        location : 'location',
-        icon: <BsBootstrap />,
-        bg: '#673AB7'
-
-    },
-    {
-        id: 7,
-        title: 'REACT.JS',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque, sit assumenda quidem repellendus dolorum!',
-        date: '2019',
-        location : 'location',
+        title: 'REACT',
+        desc: 'أمتلك مهارة في تطوير واجهات المستخدم باستخدام إطار العمل الشهير لتطوير تطبيقات الويب الحديثة. إلمامي بمفاهيم العناصر الواجهية والقدرة على تقسيم التطبيقات إلى مكونات قابلة لإعادة الاستخدام يعززان إنتاجية التطوير. أستخدم بفعالية الحالة والدورة الحياة لتحديث واجهة المستخدم بشكل ديناميكي، مما يؤدي إلى تجربة مستخدم سلسة ومتقدمة',
+        location: 'location',
         icon: <FaReact />,
         bg: '#1F7FE5'
 
     },
+    {
+        id: 1,
+        title: 'JAVASCRIPT',
+        desc: 'أمتلك مهارة فيها كونها لغة برمجة حاسمة في عالم تطوير الويب. إلمامي بالأساسيات والمفاهيم المتقدمة يسمح لي بتطوير تطبيقات الويب بشكل ديناميكي وفعّال.',
+        location: 'location',
+        icon: <DiJavascript1 />,
+        bg: '#FFD600'
+
+    },
+
+    {
+        id: 3,
+        title: 'REACT NATIVE',
+        desc: 'أمتلك مهارة في تطوير تطبيقات الموبايل وهو إطار عمل متعدد المنصات يسمح ببناء تطبيقات  باستخدام لغة واحدة مخصصة لأكثر من منصة',
+        location: 'location',
+        icon: <FaReact />,
+        bg: '#1F7FE5'
+    },
+
+    {
+        id: 6,
+        title: 'MONGODB',
+        desc: 'أمتلك مهارة في استخدام قاعدة البيانات الغير علاقية ويستند على تخزين البيانات في شكل وثائق بدلاً من الجداول المستخدمة في قواعد البيانات العلاقية ',
+        location: 'location',
+        icon: <DiMongodb />,
+        bg: '#367E18'
+
+    },
+
+    {
+        id: 4,
+        title: 'MYSQL',
+        desc: 'أمتلك مهارة في إدارة قواعد البيانات لتخزين واسترجاع وحذف وتعديل البيانات ',
+        location: 'location',
+        icon: <GrMysql />,
+        bg: '#EE7214'
+
+
+    },
+    {
+        id: 5,
+        title: 'NODE JS',
+        desc: 'أمتلك مهارة جيدة في انشاء واجهاة برمجة التطبيقات وهي منصة تستخدم لتطوير تطبيقات الويب من جانب الخادم',
+        location: 'location',
+        icon: <FaNodeJs />,
+        bg: '#1A5D1A'
+
+    },
+
 ]
 
 export const ProjectsData = [
     {
-        id:1,
+        id: 1,
         nameProject: 'ASIA-MERN-STACK',
         image: '/image/Screenshot 2022-09-11 131945.png',
         Technologies: 'react.js sass',
         githubSrc: 'https://github.com/ahmed-fareeq-0/ASIA-MERN-STACK'
     },
     {
-        id:2,
+        id: 2,
         nameProject: 'portfolio',
         image: '/image/Screenshot 2022-09-11 132049.png',
         Technologies: 'react.js sass',
         githubSrc: 'https://github.com/ahmed-fareeq-0/portfolio'
     },
     {
-        id:3,
+        id: 3,
         nameProject: 'portfolio',
         image: '/image/Screenshot 2022-09-11 141104.png',
         Technologies: 'react.js tailwind.css',

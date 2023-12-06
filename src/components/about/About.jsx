@@ -13,12 +13,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className='w-full h-320 flex flex-col'>
+          <div className='w-full h-320 flex flex-col cdc'>
 
           <h2 className=' text-2xl text-682AE9 mt-10 '>
-          I'm a 
+          مطور
           <span className=' text-red-400'> <Typewriter
-            words={['FrontEndDeveloper( )']}
+            words={[' تطبيقات الموبايل والمواقع ( )']}
             loop={1}
             cursor
             cursorStyle='.'
@@ -30,10 +30,11 @@ const About = () => {
           </h2>
 
           <p className='text-lg text-textBase mt-5'>
-          Programmers projects in the free software development project began in the free software development project, creating access to a lot of information
-          Programmers projects in the free software development project began in the free software development project, creating access to a lot of information
-          Programmers projects in the free software development project began in the free software development project, creating access to a lot of information
-          Programmers projects in the free software development project began in the free software development project, creating access to a lot of information
+          مبرمج طموح متخصص في تطوير التطبيقات والويب، وذو مسار حافل
+سجل تسليم المشاريع بنجاح في مجالات مثل أنظمة المبيعات وتعيين الطبيب
+تطبيقات الحجز، وأكثر من ذلك. شغوف باستخدام التكنولوجيا لإنشاء فعال و
+حلول مبتكرة، ومواكبة أحدث اتجاهات الصناعة دائمًا. ملتزم بِ
+تعزيز تجارب المستخدم وإحداث تأثير إيجابي من خلال التكنولوجيا.
           </p>
           </div>
         </section>

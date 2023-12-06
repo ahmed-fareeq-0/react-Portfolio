@@ -15,14 +15,14 @@ const Skills = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#171D2A', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid #171D2A ' }}
-            date="2011 - present"
+            
             iconStyle={{ background: `${item.bg}`, color: '#fff' }}
             icon={item.icon} >
         
 
-            <h3 className="vertical-timeline-element-title font-semibold" style={{'color':`${item.bg}`}}>{item.title}</h3>
+            <h3 className="vertical-timeline-element-title font-semibold text-center" style={{'color':`${item.bg}`}}>{item.title}</h3>
             <h4 className="vertical-timeline-element-subtitle">{item.date}</h4>
-            <p className=' text-dbdbdb font-medium' >{item.desc}</p>
+            <p className=' text-dbdbdb font-medium text-center' >{item.desc}</p>
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>

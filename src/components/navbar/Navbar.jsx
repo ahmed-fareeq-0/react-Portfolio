@@ -34,11 +34,11 @@ const Navbar = () => {
             <p className=' text-lg font-bold text-682AE9'>. ahmedFareeq( )</p>
 
             <div className=' hidden md:flex gap-6 ml-6 '>
-            <a href='#home' className=' text-base text-808080 font-medium hover:text-682AE9 cursor-pointer duration-100 ease-out'>.Home( )</a>
-            <a href='#about' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-out'>.about( )</a>
-            <a href='#projects' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-in-out'>.projects( )</a>
-            <a href='#skills' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-in-out'>.skils( )</a>
-            <a href='#contact' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-in-out'>.contact( )</a>
+            <a href='#home' className=' text-base text-808080 font-medium hover:text-682AE9 cursor-pointer duration-100 ease-out'>الرئيسية</a>
+            <a href='#about' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-out'>حوال</a>
+            <a href='#projects' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-in-out'>المشاريع</a>
+            <a href='#skills' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-in-out'>المهارات</a>
+            <a href='#contact' className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-in-out'>الاتصال</a>
 
             <span  onClick={() => {setShowCode(!showCode)}} className=' text-base text-dbdbdb font-medium hover:text-682AE9 cursor-pointer duration-100 ease-in-out'>.test( )</span>
             
